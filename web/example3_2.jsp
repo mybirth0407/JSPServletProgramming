@@ -2,14 +2,14 @@
   Created by IntelliJ IDEA.
   User: Yedarm Seong
   Date: 2016-01-12
-  Time: ¿ÀÀü 7:58
+  Time: ì˜¤ì „ 7:58
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/xml" %>
-<?xml version="1.0" encoding="euc-kr" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <BookStore>
   <Book>
-    <Title> Â¯ Àç¹ÌÀÖ´Â JSP</Title>
+    <Title> ì§± ìž¬ë¯¸ìžˆëŠ” JSP </Title>
     <Author> Paul McCartney</Author>
     <Date> 1998 </Date>
     <ISBN> 1-56592-235-2 </ISBN>

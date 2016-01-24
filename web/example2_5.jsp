@@ -8,9 +8,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="tf" tagdir="/WEB-INF/tags" %>
 <html>
-<head>
-  <title>example2_5</title>
-</head>
 <body>
 <center>
   <tf:helloGuest/>

@@ -16,9 +16,6 @@
 </jsp:declaration>
 
 <html>
-<head>
-  <title>example2_2</title>
-</head>
 <body>
 <jsp:scriptlet>
 String user = getUser(request.getParameter("name"));

@@ -7,9 +7,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-  <title>example2_7</title>
-</head>
 <body>
 <%-- <H3> 요청 방식: <%=request.getMethod() %></H3> --%> <center>
   <h1> JSP 2.0 </h1>

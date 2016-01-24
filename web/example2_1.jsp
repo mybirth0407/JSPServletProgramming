@@ -12,9 +12,6 @@
     return user == null ? defaultUser: user;
   } %>
 <html>
-<head>
-  <title>example2_1</title>
-</head>
 <body>
 <% String user = getUser(request.getParameter("name"));
   Calendar cal = Calendar.getInstance(); %>

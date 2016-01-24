@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>left</title>
+  <title> left </title>
 </head>
 <body>
 left.jsp 입니다.

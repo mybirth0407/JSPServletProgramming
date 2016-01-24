@@ -7,9 +7,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-  <title>example3_6</title>
-</head>
 <body>
 <center>
   <h1> 이번 예제는 include 지시자 예제입니다. </h1>

@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>include action을 이용한 Layout 예제</title>
+  <title> include action을 이용한 Layout 예제 </title>
 </head>
 <body>
 <table width="600" border="1" cellpadding="0" cellspacing="0">

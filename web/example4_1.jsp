@@ -9,7 +9,7 @@
          import="java.util.*" %>
 <html>
 <head>
-  <title>example4_1</title>
+  <title> JspEngineInfo와 JspFactory 예제 </title>
 </head>
 <body>
 <h3> JSPEngineInfo와 JSP Factory 예제 </h3>

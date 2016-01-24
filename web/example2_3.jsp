@@ -10,9 +10,6 @@
 <jsp:useBean id="hello" class="hello.HelloBean" />
 <jsp:setProperty name="hello" property="name" param="name" />
 <html>
-<head>
-  <title>example2_3</title>
-</head>
 <body>
 <center>
   <h1> Hello <jsp:getProperty name="hello" property="name" />! 방문 일자는

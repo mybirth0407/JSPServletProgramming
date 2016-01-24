@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>example5_1</title>
+  <title> forward 액션 태그 사용 예제 </title>
 </head>
 <body>
 <jsp:forward page="to.jsp"/>

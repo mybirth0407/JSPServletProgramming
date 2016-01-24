@@ -10,9 +10,6 @@
 <!-- This error page is for JSP errors. -->
 
 <html>
-<head>
-  <title>example3_4</title>
-</head>
 <body>
 <center>
   <HR size="1" noshade="noshade">

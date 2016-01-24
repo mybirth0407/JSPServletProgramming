@@ -7,9 +7,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-  <title>example2_6</title>
-</head>
 <body>
 <!--HTML 주석 예제-->
 <!-- <%=application.getServerInfo() %> 에 처리된 JSP의 결과입니다.-->

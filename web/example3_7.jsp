@@ -7,9 +7,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-  <title>example3_7</title>
-</head>
 <body>
 <center>
 <%--  <h1> 스크립트릿으로 구구단을 외워보자. </h1>

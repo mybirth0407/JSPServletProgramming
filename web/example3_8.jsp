@@ -9,9 +9,6 @@
 <%-- 선언문으로 곱하기 메서드 구현 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-  <title>example3_8</title>
-</head>
 <body>
 <center>
   <h3> 선언문으로 구현한 곱셈 </h3>

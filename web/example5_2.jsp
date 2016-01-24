@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>forward 액션 태그를 이용한 분기 예제</title>
+  <title> forward 액션 태그를 이용한 분기 예제 </title>
 </head>
 <body>
 <%

@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>example4_4</title>
+  <title 내장객체 예제 </title>
 </head>
 <body>
 <%

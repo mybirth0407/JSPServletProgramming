@@ -8,9 +8,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import = "java.util.Calendar" %>
 <html>
-<head>
-  <title>example2_4</title>
-</head>
 <body>
 <% Calendar cal = Calendar.getInstance(); %>
 <center>

@@ -33,9 +33,6 @@
   The browser you are using is <%= request.getHeader("User-Agent") %>
 </font>
 </body>
-<head>
-  <title>exmample4_2</title>
-</head>
 <body>
 </body>
 </html>

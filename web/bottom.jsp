@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>bottom</title>
+  <title> bottom </title>
 </head>
 <body>
 bottom.jsp 입니다.

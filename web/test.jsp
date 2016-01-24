@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>타이틀이다</title>
+  <title> 타이틀이다 </title>
 </head>
 <body>
 에잇<br>

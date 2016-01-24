@@ -13,9 +13,6 @@
   }
 %>
 <html>
-<head>
-  <title>example3_5</title>
-</head>
 <body>
   <center>
     <h4> <%=param %></h4>
