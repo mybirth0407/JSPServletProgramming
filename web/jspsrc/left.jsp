@@ -1,16 +1,16 @@
 <%--
   Created by IntelliJ IDEA.
   User: Yedarm Seong
-  Date: 2016-01-11
-  Time: 오후 8:56
+  Date: 2016-01-13
+  Time: 오후 5:09
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
-  <head>
-    <title> $Title$ </title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+  <title> left </title>
+</head>
+<body>
+left.jsp 입니다.
+</body>
 </html>
