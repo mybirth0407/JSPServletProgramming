@@ -1,8 +1,9 @@
-package beans;
-
 /**
  * Created by Yedarm Seong on 2016-01-24.
  */
+
+package jsp.beans;
+
 public class HelloBean implements java.io.Serializable {
     private String name;
     private String number;

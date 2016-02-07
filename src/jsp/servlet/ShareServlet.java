@@ -2,7 +2,7 @@
  * Created by Yedarm Seong on 2016-01-25.
  */
 
-package servlet;
+package jsp.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,7 +10,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import beans.CountBean;
+import jsp.beans.CountBean;
 
 public class ShareServlet extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse res)

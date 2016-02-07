@@ -1,11 +1,12 @@
-package el;
+/**
+ * Created by Yedarm Seong on 2016-02-06.
+ */
+
+package jsp.el;
 
 import java.util.Collection;
 import java.util.Map;
 
-/**
- * Created by Yedarm Seong on 2016-02-06.
- */
 public class ElFunction {
     public static int length(Object obj) {
         if (obj == null) {

@@ -6,13 +6,13 @@
          version="3.1">
     <!-- 아래 내용을 추가해야 ShareServlet 사용 가능 -->
     <servlet>
-       <servlet-name>servlet</servlet-name>
-       <servlet-class>servlet.ShareServlet</servlet-class>
-   </servlet>
-   <servlet-mapping>
-       <servlet-name>servlet</servlet-name>
-       <url-pattern>/servlet.ShareServlet</url-pattern>
-   </servlet-mapping>
+        <servlet-name>share-servlet</servlet-name>
+        <servlet-class>jsp.servlet.ShareServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>share-servlet</servlet-name>
+        <url-pattern>/jsp.servlet.ShareServlet</url-pattern>
+    </servlet-mapping>
     <!-- -->
 
     <!-- 아래 내용을 추가해야 ELFuction 사용 가능 -->
@@ -26,5 +26,78 @@
             </taglib-location>
         </taglib>
     </jsp-config>
+    <!-- -->
+
+    <!-- servlet -->
+
+    <!-- CallBackServlet -->
+    <servlet>
+    <servlet-name>callback-servlet</servlet-name>
+    <servlet-class>servlet.CallBackServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>callback-servlet</servlet-name>
+        <url-pattern>/servlet.CallBackServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- NetInfoServlet -->
+    <servlet>
+        <servlet-name>netinfo-servlet</servlet-name>
+        <servlet-class>servlet.NetInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>netinfo-servlet</servlet-name>
+        <url-pattern>/servlet.NetInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- URLInfoServlet -->
+    <servlet>
+        <servlet-name>urlinfo-servlet</servlet-name>
+        <servlet-class>servlet.URLInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>urlinfo-servlet</servlet-name>
+        <url-pattern>/servlet.URLInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- HeaderInfo -->
+    <servlet>
+        <servlet-name>headerinfo-servlet</servlet-name>
+        <servlet-class>servlet.HeaderInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>headerinfo-servlet</servlet-name>
+        <url-pattern>/servlet.HeaderInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- AdditionalInfoServlet -->
+    <servlet>
+        <servlet-name>additionalinfo-servlet</servlet-name>
+        <servlet-class>servlet.AdditionalInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>additionalinfo-servlet</servlet-name>
+        <url-pattern>/servlet.AdditionalInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--InitParamTestServlet -->
+    <servlet>
+        <servlet-name>initparamtest-servlet</servlet-name>
+        <servlet-class>servlet.InitParamTestServlet</servlet-class>
+
+        <init-param>
+            <param-name>account</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>root</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>initparamtest-servlet</servlet-name>
+        <url-pattern>/servlet.InitParamTestServlet</url-pattern>
+    </servlet-mapping>
+
     <!-- -->
 </web-app>

@@ -12,7 +12,7 @@
 </head>
 <body>
 <h4> 객체 공유 점검 예제 1 - application </h4>
-<jsp:useBean id="objapp" scope="application" class="beans.CountBean" />
+<jsp:useBean id="objapp" scope="application" class="jsp.beans.CountBean" />
 현재까지 누적된 값: <br>
 <jsp:getProperty name="objapp" property="count" /> <br>
 <hr>

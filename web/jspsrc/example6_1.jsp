@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" %>
-<jsp:useBean id="nameTest" class="beans.HelloBean" />
+<jsp:useBean id="nameTest" class="jsp.beans.HelloBean" />
 <html>
 <head>
   <title> HelloBean JavaBeans Test </title>
