@@ -99,5 +99,54 @@
         <url-pattern>/servlet.InitParamTestServlet</url-pattern>
     </servlet-mapping>
 
+    <!-- LocalTestServlet -->
+    <servlet>
+        <servlet-name>localtest-servlet</servlet-name>
+        <servlet-class>servlet.LocalTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>localtest-servlet</servlet-name>
+        <url-pattern>/servlet.LocalTestServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- LocalTestServlet -->
+    <servlet>
+        <servlet-name>membertest-servlet</servlet-name>
+        <servlet-class>servlet.MemberTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>membertest-servlet</servlet-name>
+        <url-pattern>/servlet.MemberTestServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- ContextTsetServlet -->
+    <servlet>
+        <servlet-name>contexttest-servlet</servlet-name>
+        <servlet-class>servlet.ContextTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>contexttest-servlet</servlet-name>
+        <url-pattern>/servlet.ContextTestServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- ShareObjectServlet1 -->
+    <servlet>
+        <servlet-name>shareobject-servlet1</servlet-name>
+        <servlet-class>servlet.ShareObjectServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shareobject-servlet1</servlet-name>
+        <url-pattern>/servlet.ShareObjectServlet1</url-pattern>
+    </servlet-mapping>
+
+    <!-- ShareObjectServlet2 -->
+    <servlet>
+        <servlet-name>shareobject-servlet2</servlet-name>
+        <servlet-class>servlet.ShareObjectServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shareobject-servlet2</servlet-name>
+        <url-pattern>/servlet.ShareObjectServlet2</url-pattern>
+    </servlet-mapping>
     <!-- -->
 </web-app>
