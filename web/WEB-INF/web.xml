@@ -148,5 +148,35 @@
         <servlet-name>shareobject-servlet2</servlet-name>
         <url-pattern>/servlet.ShareObjectServlet2</url-pattern>
     </servlet-mapping>
+
+    <!-- QueryServletGet -->
+    <servlet>
+        <servlet-name>query-servletget</servlet-name>
+        <servlet-class>servlet.QueryServletGet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>query-servletget</servlet-name>
+        <url-pattern>/servlet.QueryServletGet</url-pattern>
+    </servlet-mapping>
+
+    <!-- MemberJoinServlet -->
+    <servlet>
+        <servlet-name>memberjoin-servlet</servlet-name>
+        <servlet-class>servlet.MemberJoinServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>memberjoin-servlet</servlet-name>
+        <url-pattern>/servlet.MemberJoinServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- FileUploadInfoServlet -->
+    <servlet>
+        <servlet-name>fileuploadinfo-servlet</servlet-name>
+        <servlet-class>servlet.FileUploadInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>fileuploadinfo-servlet</servlet-name>
+        <url-pattern>/servlet.FileUploadInfoServlet</url-pattern>
+    </servlet-mapping>
     <!-- -->
 </web-app>

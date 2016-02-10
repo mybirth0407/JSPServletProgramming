@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>예제 3</title>
+</head>
+<body>
+<form method="post" action="..........">
+    <fieldset>
+        <legend>개인 정보</legend>
+이름: <input name="name" type="text">
+사는 곳: <input name="addr" type="text">
+전화번호: <input name="tel" type="text">
+    </fieldset>
+    <fieldset>
+        <legend>취미</legend>
+        <input name="hobby" type="checkbox" value="등산"> 등산
+        <input name="hobby" type="checkbox" value="수영"> 수영
+        <input name="hobby" type="checkbox" value="게임"> 게임
+        <input name="hobby" type="checkbox" value="축구"> 축구
+    </fieldset>
+    <fieldset>
+        <legend>건의 사항</legend>
+        남기고 싶은 글이 있나요?
+        <input name="proposal" type="radio" value="예"> Yes
+        <input name="proposal" type="radio" value="아니오"> No
+        <br>
+        건의할 사항이 있다면 다음의 텍스트 입력 영역에 작성하여 주세요.
+        <br>
+        <textarea name="memo" rows="10" cols="40"></textarea>
+    </fieldset>
+    <br>
+    <input type="submit" value="등록">
+    <input type="reset" value="재작성">
+</form>
+</body>
+</html>
