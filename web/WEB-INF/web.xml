@@ -266,4 +266,15 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
     <!-- -->
+
+    <!-- CookieTestServlet -->
+    <servlet>
+        <servlet-name>cookietest-servlet</servlet-name>
+        <servlet-class>servlet.CookieTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cookietest-servlet</servlet-name>
+        <url-pattern>/servlet.CookieTestServlet</url-pattern>
+    </servlet-mapping>
+    <!-- -->
 </web-app>
