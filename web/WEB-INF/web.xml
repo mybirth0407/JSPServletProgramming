@@ -40,6 +40,16 @@
         <url-pattern>/servlet.CallBackServlet</url-pattern>
     </servlet-mapping>
 
+    <!-- CallBackServlet -->
+    <servlet>
+        <servlet-name>first-servlet</servlet-name>
+        <servlet-class>servlet.FirstServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>first-servlet</servlet-name>
+        <url-pattern>/servlet.FirstServlet</url-pattern>
+    </servlet-mapping>
+
     <!-- NetInfoServlet -->
     <servlet>
         <servlet-name>netinfo-servlet</servlet-name>
@@ -147,6 +157,124 @@
     <servlet-mapping>
         <servlet-name>shareobject-servlet2</servlet-name>
         <url-pattern>/servlet.ShareObjectServlet2</url-pattern>
+    </servlet-mapping>
+
+    <!-- QueryServletGet -->
+    <servlet>
+        <servlet-name>query-servletget</servlet-name>
+        <servlet-class>servlet.QueryServletGet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>query-servletget</servlet-name>
+        <url-pattern>/servlet.QueryServletGet</url-pattern>
+    </servlet-mapping>
+
+    <!-- MemberJoinServlet -->
+    <servlet>
+        <servlet-name>memberjoin-servlet</servlet-name>
+        <servlet-class>servlet.MemberJoinServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>memberjoin-servlet</servlet-name>
+        <url-pattern>/servlet.MemberJoinServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- FileUploadInfoServlet -->
+    <servlet>
+        <servlet-name>fileuploadinfo-servlet</servlet-name>
+        <servlet-class>servlet.FileUploadInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>fileuploadinfo-servlet</servlet-name>
+        <url-pattern>/servlet.FileUploadInfoServlet</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- ErrorTestServlet1 -->
+    <servlet>
+        <servlet-name>errortest-servlet1</servlet-name>
+        <servlet-class>servlet.ErrorTestServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>errortest-servlet1</servlet-name>
+        <url-pattern>/servlet.ErrorTestServlet1</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- ErrorTestServlet2 -->
+    <servlet>
+        <servlet-name>errortest-servlet2</servlet-name>
+        <servlet-class>servlet.ErrorTestServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>errortest-servlet2</servlet-name>
+        <url-pattern>/servlet.ErrorTestServlet2</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- ErrorHandleServlet -->
+    <servlet>
+        <servlet-name>errorhandle-servlet</servlet-name>
+        <servlet-class>servlet.ErrorHandleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>errorhandle-servlet</servlet-name>
+        <url-pattern>/servlet.ErrorHandleServlet</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- FlowFilterOne -->
+    <filter>
+        <filter-name>flow1</filter-name>
+        <filter-class>servlet.FlowFilterOne</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>flow1</filter-name>
+        <url-pattern>/servlet.FirstServlet</url-pattern>
+    </filter-mapping>
+    <!-- -->
+
+    <!-- FlowFilterTwo -->
+    <filter>
+        <filter-name>flow2</filter-name>
+        <filter-class>servlet.FlowFilterTwo</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>flow2</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <!-- -->
+
+    <!-- LogFilter -->
+    <filter>
+        <filter-name>log</filter-name>
+        <filter-class>servlet.LogFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>log</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <!-- -->
+
+    <!-- TunningFilter -->
+    <filter>
+        <filter-name>tunning</filter-name>
+        <filter-class>servlet.TunningFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>tunning</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <!-- -->
+
+    <!-- CookieTestServlet -->
+    <servlet>
+        <servlet-name>cookietest-servlet</servlet-name>
+        <servlet-class>servlet.CookieTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cookietest-servlet</servlet-name>
+        <url-pattern>/servlet.CookieTestServlet</url-pattern>
     </servlet-mapping>
     <!-- -->
 </web-app>
