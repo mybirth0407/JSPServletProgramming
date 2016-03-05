@@ -1,11 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Yedarm Seong
-  Date: 2016-01-12
-  Time: 오전 6:44
-  To change this template use File | Settings | File Templates.
---%>
-
 <jsp:directive.page contentType = "text/html;charset=utf-8" />
 <jsp:directive.page import = "java.util.Calendar" />
 <jsp:declaration>

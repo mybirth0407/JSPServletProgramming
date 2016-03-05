@@ -1,12 +1,5 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Yedarm Seong
-  Date: 2016-01-12
-  Time: 오후 4:32
-  To change this template use File | Settings | File Templates.
---%>
-
 <%-- 선언문으로 곱하기 메서드 구현 --%>
+
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <body>
