@@ -1,10 +1,4 @@
-/**
- * Created by Yedarm Seong on 2016-02-10.
- */
-
 package servlet;
-
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import java.io.*;
 import javax.servlet.*;

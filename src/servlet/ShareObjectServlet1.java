@@ -1,7 +1,3 @@
-/**
- * Created by Yedarm Seong on 2016-02-08.
- */
-
 package servlet;
 
 import java.io.*;
@@ -25,7 +21,8 @@ public class ShareObjectServlet1 extends HttpServlet {
         obj2.setStr("객체 공유 테스트 - 2");
         context.setAttribute("objtest2", obj2);
 
-        out.println("<HTML><HEAD><TITLE>ServletContext 활용 예제</TITLE></HEAD>");
+        out.println("<HTML><HEAD><TITLE>ServletContext 활용 예제" +
+            "</TITLE></HEAD>");
         out.println("<BODY><H3>ServletContext를 활용한 객체 공유</H3>");
         out.println("<H4>컨텍스트에 ShareObject 객체를 등록하였습니다." +
             "(objtest1)</H4>");

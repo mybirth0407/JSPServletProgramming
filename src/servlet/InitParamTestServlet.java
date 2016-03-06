@@ -1,7 +1,3 @@
-/**
- * Created by Yedarm Seong on 2016-02-07.
- */
-
 package servlet;
 
 import java.io.*;

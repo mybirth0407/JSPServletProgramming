@@ -1,7 +1,3 @@
-/**
- * Created by Yedarm Seong on 2016-02-08.
- */
-
 package servlet;
 
 public class ShareObject {

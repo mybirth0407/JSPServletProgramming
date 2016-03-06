@@ -1,7 +1,3 @@
-/**
- * Created by Yedarm Seong on 2016-02-06.
- */
-
 package jsp.el;
 
 import java.util.Collection;

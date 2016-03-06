@@ -1,7 +1,3 @@
- /**
- * Created by Yedarm Seong on 2016-01-12.
- */
-
 package jsp;
 
 import java.util.Calendar;

@@ -1,7 +1,3 @@
-/**
- * Created by Yedarm Seong on 2016-01-13.
- */
-
 package jsp.appletsrc;
 
 import java.awt.*;

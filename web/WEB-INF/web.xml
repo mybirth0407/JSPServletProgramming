@@ -277,4 +277,37 @@
         <url-pattern>/servlet.CookieTestServlet</url-pattern>
     </servlet-mapping>
     <!-- -->
+
+    <!-- SessionTestServlet -->
+    <servlet>
+        <servlet-name>sessiontest-servlet</servlet-name>
+        <servlet-class>servlet.SessionTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessiontest-servlet</servlet-name>
+        <url-pattern>/servlet.SessionTestServlet</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- InfoServlet -->
+    <servlet>
+        <servlet-name>info-servlet</servlet-name>
+        <servlet-class>servlet.InfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>info-servlet</servlet-name>
+        <url-pattern>/servlet.InfoServlet</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- MemberAuthServlet -->
+    <servlet>
+        <servlet-name>memberauth-servlet</servlet-name>
+        <servlet-class>servlet.MemberAuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>memberauth-servlet</servlet-name>
+        <url-pattern>/servlet.MemberAuthServlet</url-pattern>
+    </servlet-mapping>
+    <!-- -->
 </web-app>

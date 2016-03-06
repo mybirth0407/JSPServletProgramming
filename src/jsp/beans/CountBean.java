@@ -1,7 +1,3 @@
-/**
- * Created by Yedarm Seong on 2016-01-25.
- */
-
 package jsp.beans;
 
 public class CountBean {
