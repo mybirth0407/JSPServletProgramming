@@ -7,8 +7,8 @@
 <%
   if (request.getMethod().equals("POST")) {
     if (session.isNew() || session.getAttribute("member_id") == null) {
-      String name = request.getParameter("membername");
-      String passwd = request.getParameter("memberpassword");
+      String name = request.getParameter("id");
+      String passwd = request.getParameter("passwd");
       session.setAttribute("member_id", name);
       session.setAttribute("member_passwd", passwd);
       session.setMaxInactiveInterval(60);

@@ -11,16 +11,15 @@ public class MemberAuthServlet extends HttpServlet {
         Connection conn = null;
         res.setContentType("text/html;charset=utf-8");
         PrintWriter out = res.getWriter();
-        String id = req.getParameter("id");
-        String passwd = req.getParameter("passwd");
+        String id = req.getParameter("member_id");
+        String passwd = req.getParameter("member_passwd");
 
         try {
             Class.forName("org.mariadb.jdbc.Driver");
             conn = DriverManager.getConnection(
                 "jdbc:mariadb://localhost:3306/jspservletdb", "root", "root");
             Statement stmt = conn.createStatement();
-            stmt.executeUpdate("INSERT into member values " +
-                "('darm', 'darm')");
+
             String selectquery =
                 "select id, passwd from member where id ='" + id + "'";
             ResultSet rs = stmt.executeQuery(selectquery);
@@ -71,8 +70,8 @@ public class MemberAuthServlet extends HttpServlet {
         throws ServletException, IOException {
         HttpSession session = req.getSession(true);
 
-        if (session.isNew() || session.getAttribute("memberid") == null) {
-            session.setAttribute("memberid", id);
+        if (session.isNew() || session.getAttribute("member_id") == null) {
+            session.setAttribute("member_id", id);
             return true;
         }
         else {
@@ -86,8 +85,8 @@ public class MemberAuthServlet extends HttpServlet {
         PrintWriter out = res.getWriter();
         HttpSession session = req.getSession(false);
 
-        if (session != null && session.getAttribute("memeberid") != null) {
-            session.removeAttribute("memberid");
+        if (session != null && session.getAttribute("memeber_id") != null) {
+            session.removeAttribute("member_id");
             out.print("<h4>인증 상태가 해제되었습니다.</h4>");
         }
         else {
