@@ -310,4 +310,91 @@
         <url-pattern>/servlet.MemberAuthServlet</url-pattern>
     </servlet-mapping>
     <!-- -->
+
+    <!-- ForwardTestServlet1 -->
+    <servlet>
+        <servlet-name>forwardtest-servlet1</servlet-name>
+        <servlet-class>servlet.ForwardTestServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>forwardtest-servlet1</servlet-name>
+        <url-pattern>/servlet.ForwardTestServlet1</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- ForwardTestServlet2 -->
+    <servlet>
+        <servlet-name>forwardtest-servlet2</servlet-name>
+        <servlet-class>servlet.ForwardTestServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>forwardtest-servlet2</servlet-name>
+        <url-pattern>/servlet.ForwardTestServlet2</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- ForwardTestServlet3 -->
+    <servlet>
+        <servlet-name>forwardtest-servlet3</servlet-name>
+        <servlet-class>servlet.ForwardTestServlet3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>forwardtest-servlet3</servlet-name>
+        <url-pattern>/servlet.ForwardTestServlet3</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- ForwardTestServlet4 -->
+    <servlet>
+        <servlet-name>forwardtest-servlet4</servlet-name>
+        <servlet-class>servlet.ForwardTestServlet4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>forwardtest-servlet4</servlet-name>
+        <url-pattern>/servlet.ForwardTestServlet4</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- IncludeTestServlet1 -->
+    <servlet>
+        <servlet-name>includetest-servlet1</servlet-name>
+        <servlet-class>servlet.IncludeTestServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>includetest-servlet1</servlet-name>
+        <url-pattern>/servlet.IncludeTestServlet1</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- IncludeTestServlet2 -->
+    <servlet>
+        <servlet-name>includetest-servlet2</servlet-name>
+        <servlet-class>servlet.IncludeTestServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>includetest-servlet2</servlet-name>
+        <url-pattern>/servlet.IncludeTestServlet2</url-pattern>
+    </servlet-mapping>
+    <!-- -->
+
+    <!-- TestRequestListener -->
+    <listener>
+        <listener-class>servlet.TestRequestListener</listener-class>
+    </listener>
+
+    <!-- TestSessionListener -->
+    <listener>
+        <listener-class>servlet.TestSessionListener</listener-class>
+    </listener>
+
+    <!-- TestSessionAttributeListener -->
+    <listener>
+        <listener-class>servlet.TestSessionAttributeListener</listener-class>
+    </listener>
+
+    <!-- TestServletContextListener -->
+    <listener>
+        <listener-class>servlet.TestServletContextListener</listener-class>
+    </listener>
+
 </web-app>
