@@ -37,7 +37,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>callback-servlet</servlet-name>
-        <url-pattern>/servlet.CallBackServlet</url-pattern>
+        <url-pattern>/servlet/CallBackServlet</url-pattern>
     </servlet-mapping>
 
     <!-- CallBackServlet -->
@@ -47,7 +47,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>first-servlet</servlet-name>
-        <url-pattern>/servlet.FirstServlet</url-pattern>
+        <url-pattern>/servlet/FirstServlet</url-pattern>
     </servlet-mapping>
 
     <!-- NetInfoServlet -->
@@ -57,7 +57,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>netinfo-servlet</servlet-name>
-        <url-pattern>/servlet.NetInfoServlet</url-pattern>
+        <url-pattern>/servlet/NetInfoServlet</url-pattern>
     </servlet-mapping>
 
     <!-- URLInfoServlet -->
@@ -67,7 +67,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>urlinfo-servlet</servlet-name>
-        <url-pattern>/servlet.URLInfoServlet</url-pattern>
+        <url-pattern>/servlet/URLInfoServlet</url-pattern>
     </servlet-mapping>
 
     <!-- HeaderInfo -->
@@ -77,7 +77,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>headerinfo-servlet</servlet-name>
-        <url-pattern>/servlet.HeaderInfoServlet</url-pattern>
+        <url-pattern>/servlet/HeaderInfoServlet</url-pattern>
     </servlet-mapping>
 
     <!-- AdditionalInfoServlet -->
@@ -87,7 +87,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>additionalinfo-servlet</servlet-name>
-        <url-pattern>/servlet.AdditionalInfoServlet</url-pattern>
+        <url-pattern>/servlet/AdditionalInfoServlet</url-pattern>
     </servlet-mapping>
 
     <!--InitParamTestServlet -->
@@ -106,7 +106,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>initparamtest-servlet</servlet-name>
-        <url-pattern>/servlet.InitParamTestServlet</url-pattern>
+        <url-pattern>/servlet/InitParamTestServlet</url-pattern>
     </servlet-mapping>
 
     <!-- LocalTestServlet -->
@@ -116,7 +116,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>localtest-servlet</servlet-name>
-        <url-pattern>/servlet.LocalTestServlet</url-pattern>
+        <url-pattern>/servlet/LocalTestServlet</url-pattern>
     </servlet-mapping>
 
     <!-- LocalTestServlet -->
@@ -126,7 +126,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>membertest-servlet</servlet-name>
-        <url-pattern>/servlet.MemberTestServlet</url-pattern>
+        <url-pattern>/servlet/MemberTestServlet</url-pattern>
     </servlet-mapping>
 
     <!-- ContextTsetServlet -->
@@ -136,7 +136,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>contexttest-servlet</servlet-name>
-        <url-pattern>/servlet.ContextTestServlet</url-pattern>
+        <url-pattern>/servlet/ContextTestServlet</url-pattern>
     </servlet-mapping>
 
     <!-- ShareObjectServlet1 -->
@@ -146,7 +146,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>shareobject-servlet1</servlet-name>
-        <url-pattern>/servlet.ShareObjectServlet1</url-pattern>
+        <url-pattern>/servlet/ShareObjectServlet1</url-pattern>
     </servlet-mapping>
 
     <!-- ShareObjectServlet2 -->
@@ -156,7 +156,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>shareobject-servlet2</servlet-name>
-        <url-pattern>/servlet.ShareObjectServlet2</url-pattern>
+        <url-pattern>/servlet/ShareObjectServlet2</url-pattern>
     </servlet-mapping>
 
     <!-- QueryServletGet -->
@@ -166,7 +166,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>query-servletget</servlet-name>
-        <url-pattern>/servlet.QueryServletGet</url-pattern>
+        <url-pattern>/servlet/QueryServletGet</url-pattern>
     </servlet-mapping>
 
     <!-- MemberJoinServlet -->
@@ -176,7 +176,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>memberjoin-servlet</servlet-name>
-        <url-pattern>/servlet.MemberJoinServlet</url-pattern>
+        <url-pattern>/servlet/MemberJoinServlet</url-pattern>
     </servlet-mapping>
 
     <!-- FileUploadInfoServlet -->
@@ -186,7 +186,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>fileuploadinfo-servlet</servlet-name>
-        <url-pattern>/servlet.FileUploadInfoServlet</url-pattern>
+        <url-pattern>/servlet/FileUploadInfoServlet</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -197,7 +197,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>errortest-servlet1</servlet-name>
-        <url-pattern>/servlet.ErrorTestServlet1</url-pattern>
+        <url-pattern>/servlet/ErrorTestServlet1</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -208,7 +208,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>errortest-servlet2</servlet-name>
-        <url-pattern>/servlet.ErrorTestServlet2</url-pattern>
+        <url-pattern>/servlet/ErrorTestServlet2</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -219,7 +219,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>errorhandle-servlet</servlet-name>
-        <url-pattern>/servlet.ErrorHandleServlet</url-pattern>
+        <url-pattern>/servlet/ErrorHandleServlet</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -230,7 +230,7 @@
     </filter>
     <filter-mapping>
         <filter-name>flow1</filter-name>
-        <url-pattern>/servlet.FirstServlet</url-pattern>
+        <url-pattern>/servlet/FirstServlet</url-pattern>
     </filter-mapping>
     <!-- -->
 
@@ -274,7 +274,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>cookietest-servlet</servlet-name>
-        <url-pattern>/servlet.CookieTestServlet</url-pattern>
+        <url-pattern>/servlet/CookieTestServlet</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -285,7 +285,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>sessiontest-servlet</servlet-name>
-        <url-pattern>/servlet.SessionTestServlet</url-pattern>
+        <url-pattern>/servlet/SessionTestServlet</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -296,7 +296,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>info-servlet</servlet-name>
-        <url-pattern>/servlet.InfoServlet</url-pattern>
+        <url-pattern>/servlet/InfoServlet</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -307,7 +307,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>memberauth-servlet</servlet-name>
-        <url-pattern>/servlet.MemberAuthServlet</url-pattern>
+        <url-pattern>/servlet/MemberAuthServlet</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -318,7 +318,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>forwardtest-servlet1</servlet-name>
-        <url-pattern>/servlet.ForwardTestServlet1</url-pattern>
+        <url-pattern>/servlet/ForwardTestServlet1</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -329,7 +329,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>forwardtest-servlet2</servlet-name>
-        <url-pattern>/servlet.ForwardTestServlet2</url-pattern>
+        <url-pattern>/servlet/ForwardTestServlet2</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -340,7 +340,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>forwardtest-servlet3</servlet-name>
-        <url-pattern>/servlet.ForwardTestServlet3</url-pattern>
+        <url-pattern>/servlet/ForwardTestServlet3</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -351,7 +351,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>forwardtest-servlet4</servlet-name>
-        <url-pattern>/servlet.ForwardTestServlet4</url-pattern>
+        <url-pattern>/servlet/ForwardTestServlet4</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -362,7 +362,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>includetest-servlet1</servlet-name>
-        <url-pattern>/servlet.IncludeTestServlet1</url-pattern>
+        <url-pattern>/servlet/IncludeTestServlet1</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -373,7 +373,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>includetest-servlet2</servlet-name>
-        <url-pattern>/servlet.IncludeTestServlet2</url-pattern>
+        <url-pattern>/servlet/IncludeTestServlet2</url-pattern>
     </servlet-mapping>
     <!-- -->
 
