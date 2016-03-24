@@ -10,7 +10,7 @@
             height="200" width="200" >
   <jsp:params>
     <jsp:param name="lbl"
-               value="Java JSP Servlet EJB JDBC RMI AWT JavaBeans Custom Tag" />
+               value="Java JSP Servlet EJB jdbc RMI AWT JavaBeans Custom Tag" />
     <jsp:param name="speed" value="4" />
   </jsp:params>
   <jsp:fallback> Java Plugin Error !! </jsp:fallback>

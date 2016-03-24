@@ -14,7 +14,7 @@ public class MemberTestServlet extends HttpServlet {
         res.setContentType("text/html;charset=UTF-8");
 
         PrintWriter out = res.getWriter();
-        out.println("<HTML><HEAD><TITLE>MultiThread Test</TITLE></HEAD>");
+        out.println("<HTML><HEAD><TITLE>MultiThread test</TITLE></HEAD>");
         out.println("<BODY><H2>처리 결과(멤버 변수)</H2>");
 
         while (number++ < 10) {
