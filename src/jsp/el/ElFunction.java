@@ -3,7 +3,7 @@ package jsp.el;
 import java.util.Collection;
 import java.util.Map;
 
-public class ElFunction {
+public class ELFunction {
     public static int length(Object obj) {
         if (obj == null) {
             return 0;
@@ -20,7 +20,6 @@ public class ElFunction {
         if (obj instanceof Map) {
             return ((Map)obj).size();
         }
-
         else {
             return 0;
         }

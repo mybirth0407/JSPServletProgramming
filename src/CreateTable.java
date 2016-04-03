@@ -15,7 +15,8 @@ class CreateTable {
                 "name varchar(50) character set utf8 not null," +
                 "balance int, price float)");
             System.out.println("테이블이 생성되었습니다.");
-        } else {
+        }
+        else {
             stmt.executeUpdate("DROP TABLE product");
             System.out.println("테이블이 삭제되었습니다.");
         }

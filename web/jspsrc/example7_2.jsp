@@ -4,6 +4,6 @@
 <html>
 <title> EL 표현식에서 함수 사용하기 </title>
 <body>
-<h3> EL 표현식에서 함수 호출 결과: ${elf.objLength("asdf")} </h3>
+<h3> EL 표현식에서 함수 호출 결과: ${elf:objLength("ttttttt")} </h3>
 </body>
 </html>

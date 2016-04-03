@@ -11,7 +11,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>share-servlet</servlet-name>
-        <url-pattern>/jsp.servlet.ShareServlet</url-pattern>
+        <url-pattern>/jsp.servlet/ShareServlet</url-pattern>
     </servlet-mapping>
     <!-- -->
 
@@ -100,7 +100,7 @@
             <param-value>root</param-value>
         </init-param>
         <init-param>
-            <param-name>password</param-name>
+            <param-name>passwd</param-name>
             <param-value>root</param-value>
         </init-param>
     </servlet>

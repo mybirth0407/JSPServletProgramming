@@ -15,7 +15,7 @@
         <description> Object length </description>
         <name>objLength</name>
         <function-class>
-            jsp.el.ElFunction
+          jsp.el.ELFunction
         </function-class>
         <function-signature>
             int length(java.lang.Object)
