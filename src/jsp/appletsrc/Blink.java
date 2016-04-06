@@ -1,9 +1,12 @@
 package jsp.appletsrc;
 
+import java.applet.Applet;
 import java.awt.*;
-import java.util.*;
+import java.util.StringTokenizer;
+import java.util.Timer;
+import java.util.TimerTask;
 
-public class Blink extends java.applet.Applet {
+public class Blink extends Applet {
     private Timer timer;
     private String labelString;
     private int delay;
@@ -11,7 +14,7 @@ public class Blink extends java.applet.Applet {
     public void init() {
         String blinkFrequency = getParameter("speed");
         delay = (blinkFrequency == null) ?
-            400 : (1000 / Integer.parseInt(blinkFrequency));
+            400: (1000 / Integer.parseInt(blinkFrequency));
         labelString = getParameter("lbl");
 
         if (labelString == null) {

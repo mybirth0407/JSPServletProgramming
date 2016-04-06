@@ -22,7 +22,7 @@
   Remote address: <%= request.getRemoteAddr() %> <br>
   Remote host: <%= request.getRemoteHost() %> <br>
   <hr>
-  The browser you are using is <%= request.getHeader("User-Agent") %>
+  The browser you are using is <%= request.getHeader("user-Agent") %>
 </font>
 </body>
 <body>
